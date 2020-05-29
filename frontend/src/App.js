@@ -22,7 +22,7 @@ function App() {
      <Route path="/newproject" component={NewDetails}/>
      <Route path="/single-student/:id" component={SingleStudent}/>
      <Route path="/edit-student/:id" component={EditStudent}/>
-     
+    
      </div>
      </Router>
 

@@ -19,14 +19,6 @@ import { register } from './userFunctions'
         this.submitHandler=this.submitHandler.bind(this)
     }
     
-    // handleChange(e) {
-    //     this.setState({
-    //       [e.target.name]: e.target.value
-    //     });
-    //   }
-
-    // [e.target.name]: e.target.type === 'number' ? parseInt(e.target.value) : e.target.value
-
     changeInput(e){
         this.setState({
             [e.target.name]: e.target.type==='number'? parseInt(e.target.value): e.target.value

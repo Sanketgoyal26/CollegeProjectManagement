@@ -41,7 +41,7 @@ import './projectlist.css'
 
     return(
       <div className='container primary'>
-      <div>Welcome {this.state.name}</div>
+   
       <table className="table table-hover">
       <thead className='thead-light'>
       <th scope="col">Rollno</th>
